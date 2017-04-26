@@ -34,7 +34,7 @@ new Picker({
     "title": '请选择',
 
     //默认值（可选）
-    "defaultValue": self.nowVal,
+    "defaultValue": '',
 
     //需要联动级数[1、2、3]（可选）
     //不传时默认获取数据的深度,最多3级
@@ -52,7 +52,6 @@ new Picker({
 
     "callBack": function (val) {
         //回调函数（val为选择的值）
-        self.nowVal = val;
     }
     
 });
