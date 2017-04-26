@@ -30,18 +30,15 @@ let cityData = {
 
 new Picker({
 
-    //标题(可选)
-    "title": '请选择',
-
-    //默认值（可选）
-    "defaultValue": '上海市 上海市 上海市',
+    "title": '请选择', //标题(可选)
+    
+    "defaultValue": '上海市 上海市 上海市', //默认值（可选）
 
     //需要联动级数[1、2、3]（可选）
     //不传时默认获取数据的深度,最多3级
     "type": 1,
 
-    //数据(必传)
-    "data": cityData,
+    "data": cityData, //数据(必传)
 
     //数组内的键名称[id、text、data](必传)
     "keys": {
