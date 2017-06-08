@@ -13,23 +13,21 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-touch-callout: none;
-    touch-action: none;
+    /*-webkit-touch-callout: none;*/
 }
 
 ul {
     list-style: none outside none;
 }
 
-.ub
-{
+.ub {
     display: -webkit-box !important;
     display: box !important;
-    position:relative;
+    position: relative;
 }
-.ub-f1
-{
-    position:relative;
+
+.ub-f1 {
+    position: relative;
     -webkit-box-flex: 1;
     box-flex: 1;
 }
@@ -44,7 +42,7 @@ ul {
     right: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     z-index: 9998;
 }
 
@@ -75,11 +73,13 @@ ul {
     -moz-box-shadow: 0 0 8px #333;
     box-shadow: 0 0 8px #333;
 }
+
 .zx_select > header > h1 {
     display: inline-block;
     font-size: 15px;
     font-weight: normal;
 }
+
 .zx_select > header > button {
     font-size: 15px;
     height: 45px;
@@ -89,9 +89,11 @@ ul {
     color: #007AFF;
     background: #F0F1F2;
 }
+
 .zx_select button.nav_left {
     float: left;
 }
+
 .zx_select button.nav_right {
     float: right;
 }
@@ -102,6 +104,7 @@ ul {
     text-align: center;
     font-size: 14px !important;
 }
+
 .zx_select > p > span {
     display: block;
 }
@@ -113,13 +116,16 @@ ul {
     height: 200px;
     text-align: center;
 }
+
 .zx_select > div > div.ub-f1 {
     max-width: 100%;
     min-width: 100%;
 }
+
 .zx_select ul {
     line-height: 40px;
 }
+
 .zx_select ul > li {
     height: 40px;
     color: #2A2B2C;
@@ -129,12 +135,6 @@ ul {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-/*.zx_select ul > li:first-child {*/
-    /*padding-top: 80px;*/
-/*}*/
-/*.zx_select ul > li:last-child {*/
-    /*padding-bottom: 80px;*/
-/*}*/
 
 .zx_select .sel_middle {
     position: absolute;
@@ -155,7 +155,7 @@ ul {
     width: 100%;
     height: 80px;
     pointer-events: none;
-    background: rgba(209,213,216,0.7);
+    background: rgba(209, 213, 216, 0.7);
 }
 .zx_select .sel_bottom {
     position: absolute;
@@ -164,5 +164,5 @@ ul {
     width: 100%;
     height: 80px;
     pointer-events: none;
-    background: rgba(209,213,216,0.7);
+    background: rgba(209, 213, 216, 0.7);
 }
