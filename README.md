@@ -38,32 +38,35 @@ let cityData = {
 
 ## 调用方法
 ```javascript
-// 选择器
+// 选择器（将方法封装到函数内，每次使用调用此函数就行）
 new Picker({
     "title": '请选择', //标题(可选)
     
-    "defaultValue": '上海市 上海市 上海市', //默认值： 多个用空格隔开；（可选）
+    //默认值： 多个用空格隔开；（可选）
+    "defaultValue": '上海市 上海市 上海市', 
 
     //需要联动级数[1、2、3]（可选）
     //不传时默认获取数据的深度,最多3级
     "type": 1,
 
-    "data": cityData, //数据(必传)
+    //数据(必选)
+    //在使用时，把cityData替换为后台返回的数据即可，但格式要和cityData一致
+    "data": cityData, 
 
-    //数据内的键名称[Code、Name、level](必传)
+    //数据内的键名称[Code、Name、level](必选)
     "keys": {
         "id": "Code",
         "value": "Name",
         "childData": "level"
     },
 
-    "callBack": function (val) {
-        //回调函数（val为当前选中的值）
+   //回调函数（val为当前选中的值）(必选)
+   "callBack": function (val) {
+     
         // 可在此处显示选中的值
     }
 });
 ```
-
 
 ## demo：
 
