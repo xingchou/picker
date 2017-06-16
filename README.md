@@ -1,8 +1,8 @@
-# picker
+# Picker
 移动端的联动选择器组件（例如：地址联动），压缩后只有几KB，非常小巧
 
 
-## 引入
+## Usage
 ```javascript 
 import：
     import Picker from 'picker.min.js'
@@ -13,7 +13,7 @@ import：
     <script src='picker.min.js'></script>
 ```
 
-## 数据格式
+## Data
 ```javascript
 // 例：城市数据(3级联动)
 let cityData = {
@@ -36,7 +36,7 @@ let cityData = {
 }
 ```
 
-## 调用方法
+## Function
 ```javascript
 // 选择器（将方法封装到函数内，每次使用调用此函数就行）
 new Picker({
@@ -68,7 +68,7 @@ new Picker({
 });
 ```
 
-## demo：
+## Demo：
 
 https://xingchou.github.io/pluginApp/dist/index.html#/list/picker
 
